@@ -34,13 +34,24 @@ article {
 .words {
   font-weight: bold;
 }
-.list ul {
+ul {
   list-style: none;
   font-size: 23px;
   padding-left: 10px;
 }
+ol {
+  font-size: 23px;
+  padding-left: 30px;
+}
+.label {
+  color: rgb(139, 92, 3);
+}
 .list ul li {
   margin-bottom: 10px;
+}
+.movieInfo {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 .image {
   width: 200px;
