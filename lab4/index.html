@@ -18,7 +18,7 @@
         </select>
       </div>
     </div>
-    <form action="" method="POST">
+    <form action="#" method="POST">
       <div class="wrapper">
         <div>
           <div class="input-group">
@@ -26,7 +26,7 @@
               >First Name <span class="require">*</span></label
             >
             <div>
-              <input name="first_name" required />
+              <input name="first_name" required id="first_name" />
             </div>
           </div>
           <div class="input-group">
@@ -34,7 +34,7 @@
               >Last Name <span class="require">*</span></label
             >
             <div>
-              <input name="last_name" required />
+              <input name="last_name" required id="last_name" />
             </div>
           </div>
           <div class="input-group">
@@ -42,25 +42,30 @@
               >Company/Instution <span class="require">*</span></label
             >
             <div>
-              <input name="company" required />
+              <input name="company" required id="company" />
             </div>
           </div>
           <div class="input-group">
             <label for="address">Address <span class="require">*</span></label>
             <div>
-              <textarea name="address" class="textarea" required></textarea>
+              <textarea
+                name="address"
+                class="textarea"
+                required
+                id="address"
+              ></textarea>
             </div>
           </div>
           <div class="input-group">
             <label for="city">City </label>
             <div>
-              <input name="city" />
+              <input name="city" id="city" />
             </div>
           </div>
           <div class="input-group">
             <label for="company">State/Province/Region </label>
             <div>
-              <select name="company">
+              <select name="company" id="company">
                 <option disabled selected>-Select-</option>
                 <option value="Alabama">Alabama</option>
                 <option value="Alaska">Alaska</option>
@@ -77,7 +82,7 @@
           <div class="input-group">
             <label for="country">Country </label>
             <div>
-              <select name="country">
+              <select name="country" id="country">
                 <option disabled selected>-Select-</option>
                 <option value="us">United States of America</option>
                 <option value="uk">United Kingdom</option>
@@ -89,7 +94,7 @@
           <div class="input-group">
             <label for="email">Email <span class="require">*</span></label>
             <div>
-              <input name="email" required type="email" />
+              <input name="email" required type="email" id="email" />
             </div>
           </div>
           <div class="input-group">
@@ -97,16 +102,16 @@
               >Phone Number <span class="require">*</span></label
             >
             <div>
-              <input name="phone" required type="tel" />
+              <input name="phone" required type="tel" id="phone" />
             </div>
           </div>
         </div>
         <div>
           <h3>Lunch</h3>
           <div class="input-group">
-            <label for="lunch">First Name </label>
+            <label for="meal">Meal preference </label>
             <div>
-              <select name="lunch">
+              <select name="meal" id="meal">
                 <option value="vegan" selected>Vegetarian</option>
                 <option value="meat">Meat</option>
                 <option value="fruit">Fruit base</option>
@@ -134,24 +139,41 @@
           <div class="input-group">
             <label for="cheque_no">DD/Cheque No</label>
             <div>
-              <input name="cheque_no" />
+              <input name="cheque_no" id="cheque_no" />
             </div>
           </div>
           <div class="input-group">
             <label for="bank_no">Drawn On (Bank Name) </label>
             <div>
-              <input name="bank_no" />
+              <input name="bank_no" id="bank_no" />
             </div>
           </div>
           <div class="input-group">
             <label for="payable">Payable at </label>
             <div>
-              <input name="payable" />
+              <input name="payable" id="payable" />
             </div>
           </div>
         </div>
       </div>
       <footer><input type="submit" /><input type="reset" /></footer>
     </form>
+    <p>
+      <a
+        href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsai-wap.netlify.app%2F"
+      >
+        <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png
+        alt="Validate" />
+      </a>
+    </p>
+    <p>
+      <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img
+          style="border: 0; width: 88px; height: 31px"
+          src="https://jigsaw.w3.org/css-validator/images/vcss"
+          alt="Valid CSS!"
+        />
+      </a>
+    </p>
   </body>
 </html>
