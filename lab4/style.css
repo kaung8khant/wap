@@ -71,3 +71,9 @@ footer input {
   border: none;
   color: white;
 }
+.htmlcheck {
+  padding: 20px;
+}
+.htmlcheck > * {
+  display: inline-block;
+}

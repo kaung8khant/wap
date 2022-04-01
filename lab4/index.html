@@ -63,9 +63,9 @@
             </div>
           </div>
           <div class="input-group">
-            <label for="company">State/Province/Region </label>
+            <label for="state">State/Province/Region </label>
             <div>
-              <select name="company" id="company">
+              <select name="state" id="state">
                 <option disabled selected>-Select-</option>
                 <option value="Alabama">Alabama</option>
                 <option value="Alaska">Alaska</option>
@@ -123,16 +123,26 @@
             <label> Payment Mode </label>
             <div class="checkbox">
               <div>
-                <input type="checkbox" name="cash" value="cash" />
-                <label for="vehicle1"> Cash</label><br />
+                <input type="checkbox" name="cash" value="cash" id="cash" />
+                <label for="cash"> Cash</label><br />
               </div>
               <div>
-                <input type="checkbox" name="cheque" value="cheque" />
-                <label for="vehicle1"> Cheque</label><br />
+                <input
+                  type="checkbox"
+                  name="cheque"
+                  value="cheque"
+                  id="cheque"
+                />
+                <label for="cheque"> Cheque</label><br />
               </div>
               <div>
-                <input type="checkbox" name="demanddraft" value="demanddraft" />
-                <label for="vehicle1"> Demand Draft</label><br />
+                <input
+                  type="checkbox"
+                  name="demanddraft"
+                  value="demanddraft"
+                  id="demanddraft"
+                />
+                <label for="demanddraft"> Demand Draft</label><br />
               </div>
             </div>
           </div>
@@ -158,22 +168,26 @@
       </div>
       <footer><input type="submit" /><input type="reset" /></footer>
     </form>
-    <p>
-      <a
-        href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsai-wap.netlify.app%2F"
-      >
-        <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png
-        alt="Validate" />
-      </a>
-    </p>
-    <p>
-      <a href="https://jigsaw.w3.org/css-validator/check/referer">
-        <img
-          style="border: 0; width: 88px; height: 31px"
-          src="https://jigsaw.w3.org/css-validator/images/vcss"
-          alt="Valid CSS!"
-        />
-      </a>
-    </p>
+    <div class="htmlcheck">
+      <p>
+        <a
+          href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fsai-wap.netlify.app%2Flab4%2Findex.html"
+        >
+          <img src=http://mumstudents.org/cs472/2013-09/images/w3c-html.png
+          alt="Validate" />
+        </a>
+      </p>
+      <p>
+        <a
+          href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fsai-wap.netlify.app%2Flab4%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"
+        >
+          <img
+            style="border: 0; width: 88px; height: 31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!"
+          />
+        </a>
+      </p>
+    </div>
   </body>
 </html>
