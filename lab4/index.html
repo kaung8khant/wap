@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sai Kaung Khant</title>
+    <link href="style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="header-wrap">
+        <h1>Workshop Registration</h1>
+
+        <select name="value">
+          <option disabled selected>More Action</option>
+          <option value="a1">Action 1</option>
+          <option value="a2">Action 2</option>
+        </select>
+      </div>
+    </div>
+    <form action="" method="POST">
+      <div class="wrapper">
+        <div>
+          <div class="input-group">
+            <label for="first_name"
+              >First Name <span class="require">*</span></label
+            >
+            <div>
+              <input name="first_name" required />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="last_name"
+              >Last Name <span class="require">*</span></label
+            >
+            <div>
+              <input name="last_name" required />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="company"
+              >Company/Instution <span class="require">*</span></label
+            >
+            <div>
+              <input name="company" required />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="address">Address <span class="require">*</span></label>
+            <div>
+              <textarea name="address" class="textarea" required></textarea>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="city">City </label>
+            <div>
+              <input name="city" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="company">State/Province/Region </label>
+            <div>
+              <select name="company">
+                <option disabled selected>-Select-</option>
+                <option value="Alabama">Alabama</option>
+                <option value="Alaska">Alaska</option>
+                <option value="Arizona">Arizona</option>
+                <option value="Arkansas">Arkansas</option>
+                <option value="California">California</option>
+                <option value="Colorado">Colorado</option>
+                <option value="Connecticut">Connecticut</option>
+                <option value="Delaware">Delaware</option>
+                <option value="Iowa">Iowa</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="country">Country </label>
+            <div>
+              <select name="country">
+                <option disabled selected>-Select-</option>
+                <option value="us">United States of America</option>
+                <option value="uk">United Kingdom</option>
+                <option value="mm">Myanmar</option>
+                <option value="np">Nepal</option>
+              </select>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="email">Email <span class="require">*</span></label>
+            <div>
+              <input name="email" required type="email" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="phone"
+              >Phone Number <span class="require">*</span></label
+            >
+            <div>
+              <input name="phone" required type="tel" />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h3>Lunch</h3>
+          <div class="input-group">
+            <label for="lunch">First Name </label>
+            <div>
+              <select name="lunch">
+                <option value="vegan" selected>Vegetarian</option>
+                <option value="meat">Meat</option>
+                <option value="fruit">Fruit base</option>
+              </select>
+            </div>
+          </div>
+          <h3>Payment Detail</h3>
+          <div class="input-group">
+            <label> Payment Mode </label>
+            <div class="checkbox">
+              <div>
+                <input type="checkbox" name="cash" value="cash" />
+                <label for="vehicle1"> Cash</label><br />
+              </div>
+              <div>
+                <input type="checkbox" name="cheque" value="cheque" />
+                <label for="vehicle1"> Cheque</label><br />
+              </div>
+              <div>
+                <input type="checkbox" name="demanddraft" value="demanddraft" />
+                <label for="vehicle1"> Demand Draft</label><br />
+              </div>
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="cheque_no">DD/Cheque No</label>
+            <div>
+              <input name="cheque_no" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="bank_no">Drawn On (Bank Name) </label>
+            <div>
+              <input name="bank_no" />
+            </div>
+          </div>
+          <div class="input-group">
+            <label for="payable">Payable at </label>
+            <div>
+              <input name="payable" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer><input type="submit" /><input type="reset" /></footer>
+    </form>
+  </body>
+</html>
