@@ -1,0 +1,148 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #242830;
+  color: white;
+}
+body .page-wrapper > div,
+section {
+  margin: 50px 10% 0px;
+}
+a {
+  text-decoration: none;
+  color: #0f8afd;
+}
+header h1 {
+  display: block;
+  width: 100%;
+  font-weight: bold;
+  font-size: 40px;
+}
+header h2 {
+  display: block;
+  color: rgb(190, 190, 190);
+}
+header p {
+  color: rgb(190, 190, 190);
+}
+header a {
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #0f8afd;
+  color: white;
+  border-radius: 10px;
+}
+.download:hover {
+  box-shadow: 0px 0px 28px #024a8d;
+}
+
+header {
+  display: flex;
+  height: 90vh;
+}
+header div {
+  /* padding: 20px; */
+  width: 50%;
+  padding-top: 100px;
+}
+.logo {
+  display: flex;
+  justify-content: right;
+}
+.logo img {
+  width: 350px;
+  height: 300px;
+}
+.line {
+  height: 1px;
+  background-color: black;
+  border: none;
+}
+.line.padding {
+  width: 80%;
+}
+
+.preamble {
+  margin: 100px 100px;
+  text-align: center;
+}
+.preamble > h3 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.explanation {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.question {
+  display: flex;
+}
+.question .image > img {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+}
+.question .answer {
+  margin-left: 20px;
+}
+.question .answer > h3 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.icon-section > div {
+  width: 50%;
+  padding: 100px;
+}
+.icon-section {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.participation img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 55px;
+}
+.benefits img {
+  width: 300px;
+  height: 160px;
+  margin-bottom: 45px;
+}
+#zen-requirements {
+  margin: -10px !important;
+  background-color: #0f8afd;
+  padding: 50px 10% 60px;
+}
+.requirements a {
+  color: #242830;
+}
+
+.requirements > h3 {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.sidebar .wrapper {
+  display: flex;
+  padding: 50px 10%;
+  justify-content: center;
+}
+
+.sidebar .design-selection {
+  width: 40%;
+  padding: 20px;
+}
+
+.sidebar .design-archives {
+  width: 30%;
+  padding: 20px;
+}
+
+.sidebar .zen-resources {
+  width: 30%;
+  padding: 20px;
+}
